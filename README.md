@@ -1,0 +1,2 @@
+# RecordingTestsPipeline
+Jenkins can record and aggregate test results so long as your test runner can output test result files. Jenkins typically comes bundled with the junit step, but if your test runner cannot output JUnit-style XML reports, there are additional plugins which process practically any widely-used test report format.  To collect our test results and artifacts, we will use the post section.
